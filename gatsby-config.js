@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: process.env.PATH_PREFIX,
   siteMetadata: {
     title: `Getting Started with Gatsby`,
     description: `A tutorial that goes over Gatsby development`,
