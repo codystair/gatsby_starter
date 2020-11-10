@@ -17,9 +17,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
-      - name: Setup Next
-        run: npm install
-      - name: Install
+      - name: Setup Gatsby
         run: npm ci
       - name: Clean out directory
         run: rm -rf public
